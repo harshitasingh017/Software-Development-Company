@@ -95,6 +95,7 @@
 
         }
 
+        
         @keyframes changetext {
             0% {
                 content: " TIME TO CREATE YOUR OWN MOBILE APP";
@@ -114,7 +115,7 @@
             header {
                 min-height: 500px;
             }
-
+            
     </style>
 </head>
 
@@ -135,14 +136,14 @@
                     <ul class="right hide-on-med-and-down ">
                         <li><a href="#services"> Services</a></li>
                         <li><a href="#approach">Approach</a></li>
-                        <li><a href="#methodology">Methodology</a></li>
+                        <li><a href="#work">Work</a></li>
                         <li><a href="#contact">Contact</a></li>
                     </ul>
                     <ul class="sidenav grey lighten-2" id="mobile-menu">
-                        <li><a href="#">Services</a></li>
-                        <li><a href="#">Approach</a></li>
-                        <li><a href="#">Methodology</a></li>
-                        <li><a href="#">Contact</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#approach">Approach</a></li>
+                        <li><a href="#work">Work</a></li>
+                        <li><a href="#contact">Contact</a></li>
                     </ul>
                 </div>
 
@@ -150,9 +151,9 @@
 
         </div>
 
-        <div class="hero-text-box">
-            <h1 class=" white-text right-align herotext" style="text-shadow: 2px 1px 5px black; font-family: fantasy; letter-spacing: 5px;">YOUR BUSINESS NEEDS <br><span>OUR SOFTWARE SOLUTIONS</span></h1>
-            <a class=" orange  btn lighten-1" href="#" style="margin-left: 1010px; border-radius: 10px; ">Learn More</a>
+        <div class="hero-text-box responsive">
+            <h1 class=" white-text center-align herotext" style="text-shadow: 2px 1px 5px black; font-family: fantasy; letter-spacing: 5px;">YOUR BUSINESS NEEDS <br><span>OUR SOFTWARE SOLUTIONS</span></h1>
+            <a class=" orange  btn lighten-1 center-align" href="#services" style="margin-left: 500px; border-radius: 10px; ">Learn More</a>
 
         </div>
     </header>
@@ -174,7 +175,7 @@
 
     <!----Services---->
 
-    <div class="services">
+    <div class="services scrollspy" id="services">
         <div class="bgimg" style="background-image: url(images/services.jpg); height: 380px;">
             <div class="container padding">
                 <div class="row  text-center">
@@ -284,7 +285,7 @@
 
             </ul>
         </div>
-        <div class="row" id="website">
+        <div class="row website" id="website">
             <div class="col s12 l4">
                 <div class="card lighten-5" style="height: 400px; ">
                     <div class="card-icon blue-text">
@@ -391,7 +392,7 @@
 
         <!--- Connect -->
 
-        <div class="container-fluid">
+        <div class="container-fluid scrollspy" id="contact">
             <div class="row text-center padding">
                 <div class="col-12">
                     <h2 class="center-align grey-text darken-4" style="font-family: fantasy; letter-spacing: 5px; padding-bottom: 10px;">Connect</h2>
@@ -456,7 +457,7 @@
                     indicators: true,
                 });
                 $('.tabs').tabs();
-
+$('.datepicker').datepicker();
                 $('.scrollspy').scrollSpy();
             });
 
