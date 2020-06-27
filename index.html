@@ -22,6 +22,7 @@
             background-repeat: no-repeat;
             background-attachment: fixed;
             min-height: 100vh;
+           
         }
 
         .approach {
@@ -73,14 +74,6 @@
             color: black;
         }
 
-        .fa-facebook: hover,
-        .fa-twitter: hover,
-        .fa-linkedin: hover,
-        .fa-instagram: hover,
-        .fa-github: hover {
-            color: #d5d5d5;
-        }
-
         .hero-text-box {
             position: absolute;
             width: 1140px;
@@ -95,7 +88,6 @@
 
         }
 
-        
         @keyframes changetext {
             0% {
                 content: " TIME TO CREATE YOUR OWN MOBILE APP";
@@ -116,17 +108,22 @@
                 min-height: 500px;
             }
             
+            h1.herotext{
+                font-size: 30px;
+        
+            }
+            
+            }
+
+       
     </style>
 </head>
 
 <body>
 
     <header>
-
-
+        
         <div class="navbar-fixed" style="position: fixed; top: 0;">
-
-
             <nav class="nav-wrapper transparent lighten-1 ">
                 <div class="container">
                     <a href="#" class="brand-logo">Tech-CK</a>
@@ -139,23 +136,27 @@
                         <li><a href="#work">Work</a></li>
                         <li><a href="#contact">Contact</a></li>
                     </ul>
-                    <ul class="sidenav grey lighten-2" id="mobile-menu">
-                        <li><a href="#services">Services</a></li>
-                        <li><a href="#approach">Approach</a></li>
-                        <li><a href="#work">Work</a></li>
-                        <li><a href="#contact">Contact</a></li>
-                    </ul>
+                    
                 </div>
 
             </nav>
 
         </div>
-
-        <div class="hero-text-box responsive">
-            <h1 class=" white-text center-align herotext" style="text-shadow: 2px 1px 5px black; font-family: fantasy; letter-spacing: 5px;">YOUR BUSINESS NEEDS <br><span>OUR SOFTWARE SOLUTIONS</span></h1>
-            <a class=" orange  btn lighten-1 center-align" href="#services" style="margin-left: 500px; border-radius: 10px; ">Learn More</a>
-
-        </div>
+        <div class="container">
+   <div class="content left-align" style="position: absolute;" >
+         <h1 class=" white-text left-align herotext" style="text-shadow: 2px 1px 5px black; font-family: fantasy; letter-spacing: 5px; padding-top: 200px; ">YOUR BUSINESS NEEDS <br><span>OUR SOFTWARE SOLUTIONS</span></h1>
+       <a class=" orange btn lighten-1 center-align" href="#servicest " style=" border-radius: 10px;">Learn More</a></div>
+        
+            </div>
+        
+        
+        <ul class="sidenav grey lighten-2" id="mobile-menu">
+                        <li><a class="sidenav-close" href="#services">Services</a></li>
+                        <li><a class="sidenav-close" href="#approach">Approach</a></li>
+                        <li><a class="sidenav-close" href="#work">Work</a></li>
+                        <li><a class="sidenav-close" href="#contact">Contact</a></li>
+        </ul>
+        
     </header>
 
     <!-----about------>
@@ -168,7 +169,7 @@
 
             </div>
             <div class="col s12  l10 push-l1">
-                <p class="left-align" style="padding-top: 15px; font-size: 18px;">We craft beautiful high-end websites that are functional and built keeping your business objectives in mind. Once your site is ready, we also help to maintain it for you. You concentrate on running your business and we take care of every aspect of the website for you, including but not limited to, website maintenance, hosting, updates & digital marketing.</p>
+                <p class="left-align text" style="padding-top: 15px; font-size: 18px;">We craft beautiful high-end websites that are functional and built keeping your business objectives in mind. Once your site is ready, we also help to maintain it for you. You concentrate on running your business and we take care of every aspect of the website for you, including but not limited to, website maintenance, hosting, updates & digital marketing.</p>
             </div>
         </div>
     </div>
@@ -287,25 +288,25 @@
         </div>
         <div class="row website" id="website">
             <div class="col s12 l4">
-                <div class="card lighten-5" style="height: 400px; ">
+                <div class="card-transparent " style="height: 450px; ">
                     <div class="card-icon blue-text">
-                        <img src="images/work1.png" class="responsive-img" style="padding-bottom: 12px;">
+                        <img src="images/work1.png" class="responsive-img" style="padding-bottom: 9px;">
                     </div>
                     <div class="left-align" style="padding-left: 5px;"><a href="#" class="orange btn lighten-2">Visit Website</a></div>
                 </div>
             </div>
 
             <div class="col s12 l4">
-                <div class="card lighten-5" style="height: 400px; ">
+                <div class="card-transparent" style="height: 450px; ">
                     <div class="card-icon blue-text">
-                        <img src="images/work2.png" class="responsive-img" style="padding-bottom: 12px;">
+                        <img src="images/work2.png" class="responsive-img" style="padding-bottom: 9px;">
                     </div>
                     <div class="left-align" style="padding-left: 5px;"><a href="#" class="orange btn lighten-2">Visit Website</a></div>
                 </div>
             </div>
 
             <div class="col s12 l4">
-                <div class="card lighten-5" style="height: 400px; ">
+                <div class="card-transparent" style="height: 450px; ">
                     <div class="card-icon blue-text">
                         <img src="images/work3.png" class="responsive-img" style="padding-bottom: 12px;">
                     </div>
@@ -317,7 +318,7 @@
 
         <div class="row" id="android">
             <div class="col s12 l4">
-                <div class="card lighten-5" style="height: 400px; ">
+                <div class="card-transparent" style="height: 450px; ">
                     <div class="card-icon blue-text">
                         <img src="images/work2.png" class="responsive-img" style="padding-bottom: 12px;">
                     </div>
@@ -326,7 +327,7 @@
             </div>
 
             <div class="col s12 l4">
-                <div class="card lighten-5" style="height: 400px; ">
+                <div class="card-transparent" style="height: 450px; ">
                     <div class="card-icon blue-text">
                         <img src="images/work2.png" class="responsive-img" style="padding-bottom: 12px;">
                     </div>
@@ -335,7 +336,7 @@
             </div>
 
             <div class="col s12 l4">
-                <div class="card lighten-5" style="height: 400px; ">
+                <div class="card-transparent" style="height: 450px; ">
                     <div class="card-icon blue-text">
                         <img src="images/work3.png" class="responsive-img" style="padding-bottom: 12px;">
                     </div>
@@ -344,7 +345,7 @@
             </div>
 
         </div>
-
+    </div>
         <!-- contact form -->
 
         <div class="contactform">
@@ -412,7 +413,7 @@
 
         <footer class="grey">
             <div class="container">
-                <h3 class="center-align"style="padding-top: 10px;">Tech-CK</h3>
+                <h3 class="center-align" style="padding-top: 10px;">Tech-CK</h3>
                 <hr>
                 <div class="row">
 
@@ -450,19 +451,11 @@
         <script>
             $(document).ready(function() {
                 $('.sidenav').sidenav();
-                $('.carousel').carousel({
-                    dist: 0,
-                    padding: 0,
-                    fullWidth: true,
-                    indicators: true,
-                });
                 $('.tabs').tabs();
-$('.datepicker').datepicker();
+                $('.datepicker').datepicker();
                 $('.scrollspy').scrollSpy();
             });
-
         </script>
 
 </body>
-
 </html>
